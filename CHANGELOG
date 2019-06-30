@@ -1,0 +1,3605 @@
+commit ffb70ff0476d1b483fd53a397f3544dae255bd86
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 12 09:42:42 2019 +0200
+
+    Added space to TabMenu to allow scrolling on mobile
+
+commit ab908c23707d923c2ffda334dea558f0205349b2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 12 09:31:07 2019 +0200
+
+    Fixed broken beautify and paste API
+
+commit 8214e5b1158f95ae9b58aee4a37861817bc259fd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 12 09:26:32 2019 +0200
+
+    Added shortcut back to Main layout in Settings
+
+commit a93bb3593756859be8297eb30a366d8620c298ea
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 12 09:22:22 2019 +0200
+
+    Improved code layout in page container in Main
+
+commit 9739e25a6833d68f17d29e3654587dd3ae0edb9a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 12 09:09:55 2019 +0200
+
+    Ported Main layout to quasar layout
+
+commit e86dfc5301f80350e79f220767b2f095208273b5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 12 08:34:24 2019 +0200
+
+    Updated quasar dependency
+
+commit 4b4829062114fc8a7887994b09cf64493c81e6cf
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 1 12:32:40 2019 +0200
+
+    Fixed tab in Storage service
+
+commit 488fc9f4d595a29e3e95dd6babf618922708d142
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 1 12:25:12 2019 +0200
+
+    Added lamda replace
+
+commit efbcf64bf7e884ee3788e1aed270716fd150cce0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Jan 24 18:14:18 2019 +0100
+
+    Updated dependencies
+
+commit fac1292e578f1095923b44307de59a1a5ad1fc4c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Jan 24 18:14:07 2019 +0100
+
+    Fixed linter errors
+
+commit e34a43b3575bf77cd679cfe2b540a9bc1a87e737
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Jan 24 18:06:38 2019 +0100
+
+    Added shadow and margin to images in editor
+
+commit 6fefd5e87d5235103fca2cf3595b6741e80bd1dc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jan 23 20:25:13 2019 +0100
+
+    Added tooltip to sticky bottom toggle
+
+commit a4302a8838987abe74a97fb5b0b7730b9c97f231
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jan 23 20:23:22 2019 +0100
+
+    Removing sticky bottom interval when component is being destroyed
+
+commit 96a1c5a510c6f58fb858f6bb092953bad6df741b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jan 23 20:19:47 2019 +0100
+
+    Added a sticky bottom button to editor
+
+commit 6bfe6db665612f9bc0ec6fdd5bfd8cb8ffacfde1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jan 23 19:44:00 2019 +0100
+
+    Changed the JSON export copy to clipboard to be passiv
+
+commit 59054d2f3bbf03a98bbf1e36976cd98fcf122b0b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Dec 19 19:05:02 2018 +0100
+
+    Added artifacts and cache to all jobs
+
+commit ecf8d4477c1499200e2831309b29935276894841
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Dec 19 18:59:39 2018 +0100
+
+    Added brackets long minus replace char
+
+commit 9d744577a68b32aed43d4050356983dbc873c69b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Dec 19 18:59:09 2018 +0100
+
+    Added superscript replace example to replace chars in storage Service
+
+commit 16828861f90edf83e60ee911b52fea164b944860
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Dec 19 18:57:11 2018 +0100
+
+    Changed superscript replace
+
+commit f51538e57e10eebab2be83a2517935dc8881121e
+Merge: 8b872a3 107d59d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Dec 8 11:24:20 2018 +0100
+
+    Merge branch 'master' of gitlab.com:exng/vuenote
+
+commit 8b872a34ea501db7675a8310196ed4b4a802d87e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Dec 8 11:24:15 2018 +0100
+
+    Added startup time logger
+
+commit 107d59d4dabc71269d64b7812f646b2c2c47d3ac
+Merge: 959b229 0639524
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Nov 30 12:23:32 2018 +0100
+
+    Merge branch 'master' of gitlab.com:exng/vuenote
+
+commit 959b229f30778c29d0def42fc6adfa270c77bff6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Nov 30 12:23:23 2018 +0100
+
+    Updated CHANGELOG
+
+commit 063952439104a860ecade2070f52db654a03ae2f
+Merge: 42474ba 9bc2c57
+Author: Johann Behr <johannbehr@protonmail.com>
+Date:   Fri Nov 30 11:17:42 2018 +0000
+
+    Merge branch 'superscript' into 'master'
+    
+    Superscript replace in Editor
+    
+    See merge request exng/vuenote!1
+
+commit 9bc2c57b03c5e90b9391fcac4452daa9ed423a24
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Nov 29 15:40:13 2018 +0100
+
+    Added superscript to feature list in README
+
+commit 6b61223f3d234aef55ceb71b41a79e0694d96e8a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Nov 29 15:39:57 2018 +0100
+
+    Added superscript notice to default tab
+
+commit 98519cfd7d684f3e18fb92ecc2484206d7132b66
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Nov 29 15:39:37 2018 +0100
+
+    Added superscript code to Main component
+
+commit 42474ba26bdd0a519782acf77f261bba4d3f079a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Nov 29 14:14:34 2018 +0100
+
+    Removed upper and lowercase replace support (default)
+
+commit 7cc0cef70bb2533c5483a5fbf2c82e054099479a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Nov 29 09:51:29 2018 +0100
+
+    Fixed broken horizontal lines in replace
+
+commit a06866c2d321cc4f251e9f79ee8a381664575612
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 18:14:00 2018 +0100
+
+    Updated changelog
+
+commit ee6cee07323a88b6d425c4fc638f60379b10e7bc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 18:12:59 2018 +0100
+
+    Removed PI number replace
+
+commit c27861076f00c659ad8d7595de1ee471565e1876
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 18:08:02 2018 +0100
+
+    Removed unecessary parameter from shortcuts
+
+commit f91b59058d9b36e3bc6009c4a5d574215f22de7d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 18:07:39 2018 +0100
+
+    Replaced overlay toggle with tab switch shortcut
+
+commit 1bd43c2e95f2b70914e4ad19926a944d8ae38223
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 17:58:21 2018 +0100
+
+    Reduced elements in Editor by pasting lines as text
+
+commit 426b80b23e7bb9b17df6186bafb1f59295e01094
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 17:34:59 2018 +0100
+
+    Added changelog file
+
+commit 9af39635228d29aef7e24c7c3645e9c4426f719e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 17:25:55 2018 +0100
+
+    Excluding schedules from deploy in ci config
+
+commit 7135a4b7148f5ab69baad5ff06935ad516569508
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Nov 27 10:33:33 2018 +0100
+
+    Added double minus unicode replace
+
+commit 56f79d14af98379275f103b46feee1d99ebd8e30
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Nov 9 21:48:51 2018 +0100
+
+    Added uncatched exception notification to app root
+
+commit cc6f7635b68a12085da6c11b51dfb5a24973d4c6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Nov 9 21:48:33 2018 +0100
+
+    Added timeout variable to Notification service
+
+commit ddf0f39fa37523d529bddff850cef76a011e0fa8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Nov 7 20:22:35 2018 +0100
+
+    Added version to dependency list in About
+
+commit ce3c017bddab4a540614d125c3b6e9f1c8207b78
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Nov 7 20:10:24 2018 +0100
+
+    Updated eslint
+
+commit aafa5ff69913ddf27217cc176f9d279c0b4c4e76
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Nov 7 20:08:41 2018 +0100
+
+    Updated remark
+
+commit c7c12a7b49bef9dbdeda013320bf0a0901ebb0a9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Nov 7 20:05:01 2018 +0100
+
+    Updated quasar-cli
+
+commit cdd1dca2fb1fd96de1aee1e13b9be957a56e3bae
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Nov 7 20:01:59 2018 +0100
+
+    Updated node-sass
+
+commit d096f7b7c07a32f1285a52d0db22e141f013b447
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Nov 7 09:34:08 2018 +0100
+
+    Bumped version to 1.0.0
+
+commit 4a32b5ab3ef80372804acdb8e1da04b26a12c947
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Nov 7 09:33:22 2018 +0100
+
+    Optimized linear search loop in Search component
+
+commit 9b4064c441d5acd8447814e48d5f1c05b8c0d56a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Nov 5 18:39:55 2018 +0100
+
+    Display key instead of tab count in tabMenu
+
+commit 359598e82f700f158de44759902c3064f4485ec3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Nov 2 20:26:09 2018 +0100
+
+    Changed size of top bar
+
+commit 5557a75b5c802bfee299de7356bf397761092bce
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 13 18:37:03 2018 +0200
+
+    Added both upper- and lower case support
+
+commit 2f98a92d435666a37d8275c46bd86ec1e374d139
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 13 18:36:00 2018 +0200
+
+    Fixed different arrows in replace list
+
+commit 2a063009f70d3e6d167119bcdc428378ef4989a4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 13 18:22:55 2018 +0200
+
+    Improved JSON import and export components
+
+commit b4cfed78c1cfa81d3eb65b26a6b4b1c41d87bf90
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 13 15:40:02 2018 +0200
+
+    Minor visual improvements in Main
+
+commit 45b4b69cc2822b01fa84fb0a2a4ba00a5cf3316c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 13 14:48:55 2018 +0200
+
+    Customized 404 error page
+
+commit 530e00acc7e42e900ad6bdecdaabc709047aefa2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 13 14:31:42 2018 +0200
+
+    Fixed PDF export adding content to page and therefore adding a second scrollbar
+
+commit f4b16d7cd16e5fb150ada0bd383e14f1eb393cba
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 13 14:22:25 2018 +0200
+
+    Added close button to about modal
+
+commit 2651a17d1455a4283cbb56b3e30f539bc1c4ae92
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Oct 9 21:27:32 2018 +0200
+
+    Added context menu to add tab with single JSON import option
+
+commit da7ace4d19859a17ba9227d913205c2c94ebf092
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Oct 8 21:04:24 2018 +0200
+
+    Added JSON export option
+
+commit 592111c1cde8a62f2fa5618edba2961da7f1f579
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 22:00:41 2018 +0200
+
+    Fixed PDF exports being blocked by ad blockers (popup block)
+
+commit 4b85baa0ba14f7e6f2c8aa0c3487b6fccfb91560
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 21:47:09 2018 +0200
+
+    Improved replace list in settings
+
+commit f16e18fd6a23ce6d24bdd5ff7f0e03f2efe44bf8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 19:08:10 2018 +0200
+
+    Updated quasar
+
+commit 72011bbf8d07e72d8fd5a75c9c60f77b9fb6f098
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 19:00:29 2018 +0200
+
+    Auto reloading page after clear cache
+
+commit 90cffa4a5b629441b278084825e5dae2ed6635b8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 18:59:59 2018 +0200
+
+    Added pdf export
+
+commit cb983abdfafa0cabf261ec909317995a81b3885b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 17:52:44 2018 +0200
+
+    Cleaned code in Export
+
+commit ffa7c89e54e459169f9e682832cdbe55e3b842c6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 17:15:42 2018 +0200
+
+    Moved export into seperate button in top bar
+
+commit a245c27eef2d7694b787d7bd40d7706189469269
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 16:58:10 2018 +0200
+
+    Fixed top menu on mobiles
+
+commit 9049e923aee3c56fbb79147329910a5bfd95b96a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Oct 7 16:52:54 2018 +0200
+
+    Fixed images being editable
+
+commit 3ae9f7eb00a8240282f58647f1a03e5ad5acf0ae
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 18:43:06 2018 +0200
+
+    Moved check image
+
+commit 8f8ec6d21bd6a537b9f2a63ebc9054a4a3122ce8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 18:41:27 2018 +0200
+
+    Updated README
+
+commit 1b6b6ee868f9a9e36186b0ced7b131724688927d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 18:36:16 2018 +0200
+
+    Updated screenshot
+
+commit 56d63ce5e4f884cdf361c6d8f355831eb20d88de
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 18:29:25 2018 +0200
+
+    Changed position of blockquote in default tab
+
+commit 1e6f10da14b7493b6ef01468e4070a0389d667ee
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 18:28:27 2018 +0200
+
+    Fixed inline styles in markdown code tags
+
+commit 20829edd9ccb4897c69b00bd7dda992732b9e245
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 18:09:52 2018 +0200
+
+    Fixed caret jumps in editor a bit more
+
+commit b5c97c8f485e7e3062d21609e7c0aeb4a0383a04
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 17:15:21 2018 +0200
+
+    Moved rename tab method into TabMenu
+
+commit fe4549340273f0b70140e53433452aab5255987b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 17:14:49 2018 +0200
+
+    Created seperate ArchiveContext component
+
+commit e09a0aeeccc2db737756e446370bb60259760222
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 17:04:46 2018 +0200
+
+    Replaced custom slide with quasar carousel
+
+commit a19f0c873e253f23eeeed53dea3447461cbed836
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 16:21:21 2018 +0200
+
+    Moved icon xcf file into seperate folder
+
+commit 29983f08b762d11599387073b525e5952b4a84db
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Oct 6 15:05:33 2018 +0200
+
+    Added up anddown arrows as replace chars
+
+commit 2e07c5af388927b2b41354b3a1a0c12100f7167c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Oct 2 15:37:33 2018 +0200
+
+    Added inline text marker to markdown parser
+
+commit bba1c39403f0332f615620d6919eb28f6946ee50
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Oct 2 15:23:24 2018 +0200
+
+    Fixed default tab text
+
+commit 0d82e54ae402b71640cb00589bdb79ff4438b5c5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Sep 28 22:16:28 2018 +0200
+
+    Removed old scripts
+
+commit 79e379bd8b71b9db0cd06b883018cbe0121a9dfc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Sep 28 22:11:55 2018 +0200
+
+    Removed uneccessary zip and unzip install in before_script of gitlab-ci config
+
+commit b443c101bae7a840e139a06f07485cb5a47c154d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Sep 28 22:07:02 2018 +0200
+
+    Updated dependencies
+
+commit 9f92c21928dd6348c94d30d72c18f8b6e4cc6803
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 22 11:10:19 2018 +0200
+
+    Cleaned up code in TabMenu
+
+commit f5865d9d04eb63802e4b9eb7ec4bddbdb3b18d0a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 22 11:06:40 2018 +0200
+
+    Fixed broken tab width if only col in row (Introduced by vue-draggable)
+
+commit f66ebc2f03042e2f50f953fb8aa71cf7a4e415f8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 22 11:01:45 2018 +0200
+
+    Updated dependencies
+
+commit 3d899091df3ed1166e9064b569aead007d3033c4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 15 12:56:20 2018 +0200
+
+    Improved cursor handling in editor
+
+commit 43b9288fd7cb418d967ec673b91715bdc1099687
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 15 12:44:09 2018 +0200
+
+    Added pi (as number) to replace
+
+commit b9938e07d7d2daa7fa6eb91ba62b4e3ea44a328a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 15 12:39:44 2018 +0200
+
+    Added TouchHold event to tab menu for easier access to preview
+
+commit e27a8409bd75e0e664b69af801b91aeb3a64848d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 15 12:01:23 2018 +0200
+
+    Updated README command for yarn
+
+commit 3305f5481bd92c0a6db4d30473cc2d69d67df56e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Sep 15 11:56:48 2018 +0200
+
+    Added list of features for vuenote
+
+commit 88d821eca8d34dcdfbe36594710a86a3571d1e63
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Sep 12 19:11:03 2018 +0200
+
+    Implemented draggable in tab menu
+
+commit ad91bcb7754543ac1d39b64cc7d145771b3d1dd2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Sep 12 19:06:51 2018 +0200
+
+    Added vuedraggable as dependencies
+
+commit 365e713bb2dae260fa045333432cbdfea250687c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Sep 12 18:07:08 2018 +0200
+
+    Changed looks of double side arrows in replace with two single arrows for better visibility
+
+commit 5979f7de9f4e812061333aeeec471555d07b2e71
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Sep 12 13:52:29 2018 +0200
+
+    Added phi & pi to replace
+
+commit a5fad1509541e183b7505ee0383677e2f2e8b178
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Sep 11 20:15:02 2018 +0200
+
+    Added missing comma to Editor service
+
+commit 58cb4ff9fd804789fbf53a087429463b6c739025
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Sep 11 20:08:16 2018 +0200
+
+    Optimized code of editor markdown to html conversion
+
+commit 09a58e4e206459c2df178fb1e8b61c69f43f2ab7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Sep 11 19:21:33 2018 +0200
+
+    Added double quotes to code parser
+
+commit f9b644483a704cb662140bd318a4b6e98ec7493f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Sep 11 19:11:15 2018 +0200
+
+    Removed list parser since its unused
+
+commit a9bd1b8615e1f8fe24ef976a5e917799cc61f947
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Sep 11 16:15:03 2018 +0200
+
+    Fixed empty slides
+
+commit 5e3b7c71c8e16b7fcdf92f3c158222eb48d71219
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Sep 10 20:11:31 2018 +0200
+
+    Reduced line fade delay and add debug time to editor setText
+
+commit 80217e3aa23c74a6769cb768c44aa9262f71e6a3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Sep 10 18:16:39 2018 +0200
+
+    Updated quasar-cli
+
+commit 77d33991b1928a7603a6d7c386df31b4cc0543b5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Sep 10 18:10:58 2018 +0200
+
+    Removed trim of strings in inline style parser
+
+commit cc41fbc7fb2fece8ad10bfc5e739ca1c0e46ff64
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Sep 10 10:38:02 2018 +0200
+
+    Added omega and root replaces
+
+commit d6a02474da74e66e08c8267248b6b4c4b0804d98
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Sep 10 09:54:56 2018 +0200
+
+    Added alpha and frequency replaces
+
+commit 4b5ad45bc88c7bd87749ce7909fd8c581fd3c5ac
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Sep 10 09:41:28 2018 +0200
+
+    Added fix for italic bold text
+
+commit ce4462bfb9cfbc8162b545d073eb781a75a0bef4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 27 19:31:26 2018 +0200
+
+    Disabled dependencie version check and audit in gitlab ci config
+
+commit e1d38d47f6a4117b6ff3960961b304ebf893adb5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 27 19:30:31 2018 +0200
+
+    Added selector parameter to Tab Context Menu
+
+commit 14bde958c076684133bb1fe88a2b48ec58c3722c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 26 16:18:16 2018 +0200
+
+    Minor visual improvements
+
+commit d659e1e248118a53922fda57d14c3de78d4b91f1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 26 16:02:30 2018 +0200
+
+    Added clipboard plugin
+
+commit 160b696debc5aeaa658b8e88e3db9d18a7ceb8bf
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 26 16:02:07 2018 +0200
+
+    Added vue-clipboard2 as dependencies
+
+commit 137667db724c61dcede56657c88be6e290dec89d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 25 18:40:17 2018 +0200
+
+    Removed text options
+
+commit 6610bb5fbdf2e900b9c35a37a7acd70442cd3e57
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 25 14:32:43 2018 +0200
+
+    Added preview to archived tabs
+
+commit aaff21294ea5ed2183ee161e2303f1fcac609a3d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 24 17:42:53 2018 +0200
+
+    Added tab preview (archive coming soon)
+
+commit 65e75c39ce350c8bc7c05ca800002cbb3bb63d7f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 24 12:08:42 2018 +0200
+
+    Added ballot replace
+
+commit b0fb0ee344b75c3fcf6726c47549e18eac568e45
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 20:14:46 2018 +0200
+
+    Fixed multiple resets of replace items on startup
+
+commit 9538debf4eb0ed300c9ecef340d49581a6058d1f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 20:12:05 2018 +0200
+
+    Added auto update of replace items
+
+commit 37a2f8e8c3f58f94e4b4d1a4bd9f9316cbe1c854
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 20:09:02 2018 +0200
+
+    Updated link to mark down help
+
+commit bed2cbaa659cfec8061c4b173667f8fcfcd5bee2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 19:56:25 2018 +0200
+
+    Updated node-sass
+
+commit 0f69fabdd22a42c08a5d526557991649b09e8cfb
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 19:54:52 2018 +0200
+
+    Updated quasar-cli
+
+commit f2b1d93a2b51229718add3950763d1448f13ebc4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 19:47:29 2018 +0200
+
+    Fixed shortcuts for browser
+
+commit 30ee517ad74abb6c6534b9fd560e56aa4e15e844
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 19:21:49 2018 +0200
+
+    Fixed search
+
+commit f9a21bbec64a0746e734d11c77169c4e47ad846c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 22 12:33:23 2018 +0200
+
+    Added two way arrow replace
+
+commit 12e2b174c4a5bccb83fad4674f93956c29a109e5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 21 18:36:16 2018 +0200
+
+    Changed icon color to primary
+
+commit 8fbfa8a8ea25bec7bb95ea1630a5ac0072f01dd5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 21 18:31:40 2018 +0200
+
+    Minor tweaks
+
+commit c2b6f1e21bbcdeb6cd5b7bb7b49d42824ce657cc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 21 18:13:50 2018 +0200
+
+    Changed visuals of TabMenu
+
+commit 9dcac6d713ae4d2e13cbf0edf6a3aeb3405a7319
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 21 17:44:46 2018 +0200
+
+    Added animation to tab tooltip and moved option key listener to TabMenu component
+
+commit d26de25ff7d3860e5a118144f99fc775f43c58ca
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 19:33:08 2018 +0200
+
+    Added audit and outdated to ci
+
+commit 7f1da4443ea3f4959ad29c8b6dfa9cbc53cc22d4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 19:18:11 2018 +0200
+
+    Removed round attribute from top buttons
+
+commit 917ef125780400cf878e0f4872506cf03fd0c4d8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 19:07:05 2018 +0200
+
+    Disabled more text options temporary
+
+commit 2797f118677bd3aff5e3c77b558286774ba82917
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 19:04:57 2018 +0200
+
+    Removed fullscreen shortcut
+
+commit f0093d447b30caf5ba643a78714248a57b6f77a0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 18:56:09 2018 +0200
+
+    Removed necessary spaces before inline styles to be valid in editor
+
+commit d63653d39761c78523efb88e487b85e34157855b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 18:47:08 2018 +0200
+
+    Added blockquote support in editor
+
+commit 320cc8342c103c29d5e73548dd7740bdab8a533c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 18:16:29 2018 +0200
+
+    Tweaked the ci script
+
+commit c15bb0a0d1fe0b7192e27f6d77185e8645636f5f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 18:01:51 2018 +0200
+
+    Replaced key registration by Mousetrap in editinput
+
+commit 0b21f4c3a51cd195bc0866061e718f64d2686366
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 20 17:33:12 2018 +0200
+
+    Reduced keydown timeout in editinput component
+
+commit ea18ae1662595e273e6c5c87b32873b0af02816c
+Merge: 484008b 0d6f08d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 18 10:18:05 2018 +0200
+
+    Merge branch 'master' of gitlab.com:exng/vuenote
+
+commit 484008b7375f247749bbda6e0884323782408493
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 18 09:59:48 2018 +0200
+
+    Fixed wrong urls
+
+commit 0d6f08de9094f01f35fdb5687158c353a0ff7b3a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 17 20:42:21 2018 +0200
+
+    Hiding archive when empty
+
+commit 3ea7dab27cfb278693a2ef1fc169ad0347f8f5d3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 17 20:35:04 2018 +0200
+
+    Added tab icons
+
+commit 41fc8128840b637ba6848db7ff88ef2a3552e109
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 17 20:26:24 2018 +0200
+
+    Removed unused npm package lock
+
+commit 61799504cb9e4e6da1fd39b16660bfba0f517ea6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 17 20:14:55 2018 +0200
+
+    Switched history mode to hash
+
+commit b056ead24a669f18a3d7e60e0acd46ac0e07daba
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 17 19:08:13 2018 +0200
+
+    Fixed screenshot
+
+commit a82b6dc0db2db550140f4beebdf7fcf0f2a08d5d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 17 19:02:59 2018 +0200
+
+    Changed appearance of inline style based on first detected element type
+
+commit 975758707f744ccace64f59d5d166c86ee31e956
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Aug 16 21:29:27 2018 +0200
+
+    Generating editor content as string instead of html trees
+
+commit f44afa5a6ca496310541b6fd03c61fbbd7bfc2fe
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Aug 16 21:28:37 2018 +0200
+
+    Added code element style
+
+commit 024ae3a8b3d35defb03cb4d2485cc97ea2aa741f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 15 20:53:25 2018 +0200
+
+    Fixed table creator for browser
+
+commit e014189829579f214ba4876dc980b2f8378f0f11
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 15 20:26:42 2018 +0200
+
+    Cleaned code in editInput
+
+commit 58d94c90335d78f4b39072bb0bf78745c0dbe750
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 15 19:56:18 2018 +0200
+
+    Removed outline from editor
+
+commit 489ebde24abed11cdd2ae0d78fff29e6bfe1b764
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 10 21:08:23 2018 +0200
+
+    Added shadow to screenshot
+
+commit 239829dafdc9f32ed94ae4c869ceb4752e48aac2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Aug 10 21:02:26 2018 +0200
+
+    Fixed screenshot links
+
+commit e78a52eb6e3507a6836e34bf46c5269fb2c26eeb
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 7 22:18:52 2018 +0200
+
+    Updated default tab in storage
+
+commit 35209d8a808bfdcf29a34df23c0de2227af7c08a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 7 22:09:38 2018 +0200
+
+    Renamed right pane to preview
+
+commit 7ed9ffff52cbb36ab4e58385386d4facabf2d3b2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 7 22:07:46 2018 +0200
+
+    Renamed left tab to editor
+
+commit 205778984bc2c0ab63c972c71073bd77cc414ce9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Aug 7 22:07:26 2018 +0200
+
+    Added pane toggle fot tabs
+
+commit fa4bb809a338fb89e199727ff16daad53aec87ba
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 6 21:16:00 2018 +0200
+
+    Fixed 2 blank lines error
+
+commit 63f092ffe8af82273866b0656d5300cfe864490f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Aug 6 21:10:18 2018 +0200
+
+    Added padding for input border and radius
+
+commit 5f76592b092d240a715b1acd06aabdefded816a7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 14:55:05 2018 +0200
+
+    Fixed config syntax
+
+commit 884ca496bedd219c844613e3ab020a35e8ae4e3a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 14:53:17 2018 +0200
+
+    Added build files on tag builds
+
+commit 184fba7c98fff31c9885e94b00bdf484e6550dae
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 11:50:09 2018 +0200
+
+    Set manifest name and description
+
+commit 67467d1515f1cce75a6eb5ea95e0c816c06261ee
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 11:37:22 2018 +0200
+
+    Removed docs
+
+commit dac3bd1ed264f5513a3718a91f79dfa4ab4405a8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 11:37:03 2018 +0200
+
+    Removed github left overs
+
+commit 4a8f38d83bfc439d57818f5cfbf09a699a4ad8d9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 11:36:46 2018 +0200
+
+    Removed travis ci config
+
+commit 71f7e2740d51d298fb4946e412d3d2ca73837ffb
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 11:12:53 2018 +0200
+
+    Added page deploy to ci
+
+commit 0406aaeddf601746066125ce4bd3e6e7bcf39184
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 11:00:26 2018 +0200
+
+    Removed yarn install since it should be installed by default
+
+commit fbde7af1893d93b65ebd599b84f120e421dc14de
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 10:57:17 2018 +0200
+
+    Added apt update to before_Script
+
+commit fecb70a14a1cec32ca5b7359a5992909f094ec93
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 10:53:48 2018 +0200
+
+    Removed before_script overide from jobs
+
+commit 8beb0f436c56de3fe2e83154c2c31ce6133cad92
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 10:49:23 2018 +0200
+
+    Added zip as ci dependencie
+
+commit f2921cfc0ac6b0a42bd9ce91ecdbfa2dbccf1f82
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Aug 5 10:46:39 2018 +0200
+
+    Added gitlab ci config
+
+commit 9338c11b9db2256e4e176420c33a53af3c66b055
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 22:25:14 2018 +0200
+
+    Bumped version to 0.1.0
+
+commit dd315da1a1b5343debc0d4f0913e319707c33749
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 22:19:56 2018 +0200
+
+    Added size info to travis config
+
+commit 6d55b1415c6184186be50577472c2a719e901c87
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 22:17:29 2018 +0200
+
+    Removed moment
+
+commit 935b871fdfcf1873431fe603ab994410cf15ddbd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 22:14:53 2018 +0200
+
+    Removed quasar-pak
+
+commit 830c0a9e6ac0d24b4a1300b23a11d023d0cb3173
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 22:11:21 2018 +0200
+
+    Added animation to TabMenu
+
+commit 81af7e2e661953c7595beed0e0362507ae25521a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 22:10:40 2018 +0200
+
+    Cleaned dependencies
+
+commit 04e198c9dfb8f32fba3f6b144274b4312cee9857
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 21:59:20 2018 +0200
+
+    Removed unecessary code and dependencies and minor fixes
+
+commit b84eb9b09330f2340c75becb22b67a364e1dc9cc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 21:26:22 2018 +0200
+
+    Removed save button since all changes are saved instantly anyway
+
+commit a272d81c6ffb01beb1cc312a8cadcd23f9aa1183
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 21:22:14 2018 +0200
+
+    Redirecting to main on save in settings
+
+commit 595c9951ff265d7b5fa7591f958576ae2f91ef23
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 21:21:11 2018 +0200
+
+    Changed about tabs buttons to match style
+
+commit 14c9ce509e7e5d6095a3ec184cb9f758f9efed83
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 21:20:55 2018 +0200
+
+    Removed cloud features
+
+commit a6b1cbe980030767c9e021f53cbbf782d0951417
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 21:17:02 2018 +0200
+
+    Fixed settings style
+
+commit b9c5318234e756e9d3ab8b975abeeff15f98bdfe
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 18:19:31 2018 +0200
+
+    Fixed search style
+
+commit 0fb14cfe2d996427a936ed00eb1e0192390b88d9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 18:03:13 2018 +0200
+
+    Fixed about style
+
+commit cf0fd43b6a87006547e15a865acb994bc5ae1e1e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 18:01:45 2018 +0200
+
+    Replaced old paddig class with quasar padding
+
+commit e7778cd621a84e400921803ee867a40e54c8e818
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 17:26:02 2018 +0200
+
+    Minor changes in Main
+
+commit f9f1a9e5e54d0136dd14c343bffa7d2de1f50402
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 17:21:21 2018 +0200
+
+    Fixed editor style issues
+
+commit 8a6213afedad4c6fc45e9319928a9e9fb2f8480e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 13:47:45 2018 +0200
+
+    Fixed unset in config service
+
+commit bc203a954c04ae8345d9b328c63e000301b0ca4f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 13:35:06 2018 +0200
+
+    Fixed slides buttons
+
+commit cc791889b171779d9fe31fe3a67c0f27b4b37d96
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 13:29:53 2018 +0200
+
+    Minor visual improvements
+
+commit d521f961f79e6c87722aa891e07a8f9e46358e5b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 13:29:39 2018 +0200
+
+    Added prettify and slide buttons
+
+commit 1fb9a2b685c38cc36dbff669e376f09153f6ce38
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 13:00:29 2018 +0200
+
+    Fixed heading size
+
+commit 7beab3fd3b863701542136523937a07e4100413b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Aug 4 09:20:00 2018 +0200
+
+    Changed layout to quasar components
+
+commit 2f70a421b79012537c2c7a90113ffbd6dd5a79aa
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Aug 1 21:12:44 2018 +0200
+
+    Switched to PWA
+
+commit b8687a122273ac4c33033fb23889940a93837fde
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Jul 28 15:13:29 2018 +0200
+
+    Bumped version to 0.0.28.1
+
+commit a987fb9392e2197b1e0301aaea6ea6dec77f0688
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Jul 28 15:13:08 2018 +0200
+
+    Dont have the time to further support windows with travis fuckery
+
+commit 68e9aa321ffb902e50bdf6c4d13d772325a04f1d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jul 27 23:12:38 2018 +0200
+
+    Bumped version to 0.0.28
+
+commit 51ef736876af945791a7cd23804057a18bdbc7b0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jul 27 23:07:37 2018 +0200
+
+    Come on travis
+
+commit 7dc9dd123f591c2018f2b7a03a8e9616aa840d72
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jul 27 23:05:13 2018 +0200
+
+    Updating yarn before install
+
+commit dccea259bf806ec4ad3e7812155a4c740b2d48c3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jul 27 23:00:07 2018 +0200
+
+    Updated dependencies
+
+commit 3fc0ea7192ec3c85c5da321ce4f43c7d8e3d1fca
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jul 27 22:29:21 2018 +0200
+
+    Minor changes
+
+commit 60f81ce6213f5aa32edd3d0dd996a763e64d5f88
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jul 27 21:17:10 2018 +0200
+
+    Removed darwin, deb & AppImage
+
+commit 1ba4237927956221c7ab268b6c7406fc73aa3836
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jul 27 21:09:05 2018 +0200
+
+    Changed build script to copy linux build before windows build
+
+commit 3c72411cf04b9bbde5b37ea1450f4ce91aaea2f7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Jun 16 18:33:47 2018 +0200
+
+    Fixed (?) darkmode
+
+commit 396e5b86727db5edbfa4db5a32c399ffa20084fa
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Jun 15 18:42:23 2018 +0200
+
+    Changed icon
+
+commit 6932c1015a11207fd4d7693d065af59b21789abd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:46:04 2018 +0200
+
+    Bumped number to 0.0.27.1
+
+commit 60f6cbb1ba616cb4a31f78ddf05564c4509d35dc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:44:14 2018 +0200
+
+    Fixed before_deploy in travis script
+
+commit d143330b36c86ed8f2e9d78847f175335d9ca4a1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:35:10 2018 +0200
+
+    Bumped version to 0.0.27
+
+commit dd6af6194426e1fcefc6614211b9d666be4c8884
+Merge: 7e8a6f8 b170e78
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:28:05 2018 +0200
+
+    Merge branch 'master' into appimage
+
+commit 7e8a6f88581b49de654e027a7bda82e60a43ef3b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:24:01 2018 +0200
+
+    Added appimage to releas list
+
+commit 75baf66d44e8cbb2b6d568ebff61ac92cb4e9775
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:13:49 2018 +0200
+
+    Added appimage build script
+
+commit 82f5aa7401aee5353d2d6d344e30bf9be7d24a4c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:09:49 2018 +0200
+
+    Removed before deploy from travis
+
+commit 0f04bf6bc219ae728d902bb409530123745064e5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Jun 6 21:08:07 2018 +0200
+
+    Updated quasar-pak
+
+commit b170e784b1885e521ef73c8bb05db7bd2c0044d4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri May 25 23:31:31 2018 +0200
+
+    Replaced shiled with travis shield in README
+
+commit dbe14ee83598f00cf514bb26b209f7e19b8c2742
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri May 25 23:27:31 2018 +0200
+
+    Updated electron
+
+commit ff352291eefab64c4283357a9b26603f209babee
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri May 25 23:25:50 2018 +0200
+
+    Updated quasar-cli
+
+commit d7f958d9bbf82528fc2813486a069e373346aaf4
+Merge: 5152edc 3f1d530
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 23 22:17:43 2018 +0200
+
+    Merge branch 'master' of github.com:ExNG/vuenote
+
+commit 5152edcbe899c22a9b6a744ad2d1a274adc4cb8b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 23 22:15:55 2018 +0200
+
+    Put querySelector into method for consistency in EditInput
+
+commit 3f1d530aa5e0b9d30cdd207580767914408b9420
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 22 10:37:13 2018 +0200
+
+    Fixed markdown presets in Main
+
+commit 2fca0122576d72574c2005c8726820013e289f18
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 21 12:12:27 2018 +0200
+
+    Minor improvements to EditInput
+
+commit 10f9bd0b540791c34960e99e082459dbb7ba43df
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 21 12:09:35 2018 +0200
+
+    Changed lineBreak problem solution
+
+commit 373bff2e2536688510009d6438ecf6255ad1b696
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 20 17:59:19 2018 +0200
+
+    Implemented test system
+
+commit 57f5cef6fcc98e958cd4459113dbf1627a5910e5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 20 17:54:54 2018 +0200
+
+    Added test script
+
+commit fcd7555e8fcc60ca16e2aa6bd685cabd3b3c07e3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 19 17:38:27 2018 +0200
+
+    Reset travis script
+
+commit 16618dce06bd666e44fe0a960609a658c7cc6f50
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 19 17:25:03 2018 +0200
+
+    Testing travi build
+
+commit e7abbf3b3e9b3ce0caae71dee8c94704a38be90f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 19 17:21:28 2018 +0200
+
+    Switched deb creation to Quasar-Pak
+
+commit f86c7094f7c82a034ab5e8a4fe27450323c6045b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 19 13:12:42 2018 +0200
+
+    Set higher max image height
+
+commit dfcb661793a83b39b926076c9040d507ac1cbde0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu May 17 19:18:07 2018 +0200
+
+    Added verry basic bold and italic line detection
+
+commit 538eeb19aedd2fdf98331f15d3d5ebd6ecc83ba3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 16 18:54:27 2018 +0200
+
+    Added checkmark to replace
+
+commit 840bad582093068f359a8e86c170f23bdfabd424
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 16 18:44:00 2018 +0200
+
+    Changed unicode arrows in replace
+
+commit 726dd52e79698c854dec05eae3e41bf497b66eaa
+Merge: f88d526 dfc7d5e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 16 08:11:08 2018 +0200
+
+    Merge branch 'master' of github.com:ExNG/vuenote
+
+commit f88d526623a5a7ff5c337d6685c94d2531e660db
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 16 08:10:52 2018 +0200
+
+    Updated antimatterkit
+
+commit a1d310135a32927638bc0d53c3f422b80b9c38bc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 16 08:06:39 2018 +0200
+
+    Moved md oneline conversion to single method
+
+commit dfc7d5e48f980514d9be4e4fd0efdabcb7130110
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 16 08:02:40 2018 +0200
+
+    Moved md oneline conversion to single method
+
+commit 44c6d1036fe09a919fd113012a3e892648d4e158
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 15 19:48:55 2018 +0200
+
+    Bumped version number to 0.0.26
+
+commit 1a29c0ba1118392702a08d365ee903d82e333934
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 15 19:21:25 2018 +0200
+
+    Fixed Backups
+
+commit 71d15a977cf00b50d3ebc007d5608fbf15a40c0d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 15 11:18:27 2018 +0200
+
+    Bumped version to 0.0.25.1
+
+commit f2b50affcaa69244ec8b7302085e4e4f634b4a49
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 15 11:17:27 2018 +0200
+
+    changed list elements from ul to div
+
+commit fedef01dfd0d53f78d49952edfd512c246fa13b2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 15 11:14:39 2018 +0200
+
+    Fixed whitespaces messing up the documents
+
+commit 9e705a7ce496938d9a521201ab6fd6265ccaa6fb
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 14 20:02:26 2018 +0200
+
+    Bumped version number to 0.0.25
+
+commit eed032977890b959fde0b4ab24fddcd900127e70
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 14 19:58:09 2018 +0200
+
+    Fixed some issues with animations
+
+commit 611d04dc53244e9a4ceb5386c6dc8196df952a79
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 14 19:57:03 2018 +0200
+
+    Fixed duplicated events
+
+commit c25ad94fe37c60fbcb328391824a4a051c03d450
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 14 19:27:32 2018 +0200
+
+    Fixed human error
+
+commit 0dcf930aa25e9ea1c218635bad92ce31f41bd461
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 14 19:24:58 2018 +0200
+
+    Removed dots of elements to wide for screen
+
+commit 5c76bfb7b32d6de40a61e591154e46de46224e66
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 14 19:24:16 2018 +0200
+
+    Added max image height to not let images cover the whole screen
+
+commit 4317d131f301020aaa87726cf78b00f93284df0d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 13 10:34:35 2018 +0200
+
+    Added animations on first text set in editor
+
+commit 0058089a4b2221854f05b0b6aa34355355c6c049
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 19:35:30 2018 +0200
+
+    Added dist prefix to deploy files
+
+commit 5138baea26baf0efc006b8bd79a2ae87e8b825cc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 19:20:42 2018 +0200
+
+    Fixed wrong console output
+
+commit c6e62bc1af27c0139d557943d8e37fc5a731efcd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 19:06:37 2018 +0200
+
+    Bumped version to 0.0.24
+
+commit d2f6834a2d0b47bd26d8c2f7aa7eb5cc18e1ca69
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 18:59:39 2018 +0200
+
+    Added more text options
+
+commit 0f5de19e5464ab4cf4175566901d4f6e44e6caa0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 15:15:56 2018 +0200
+
+    Added buttons to quickly paste bold or italic text
+
+commit 12a08b19005b0779e444910b3eb93e50d556b7c6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 13:30:13 2018 +0200
+
+    Changed editor toggle shortcut
+
+commit 316073d6687f36090faf703781b66e17ed40004f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 13:29:35 2018 +0200
+
+    Added saving of search filter
+
+commit 1d6a345105603cba18bc2a63ab00bf27eeed8547
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 13:21:30 2018 +0200
+
+    Made sidebar static
+
+commit b5db0e3e554570f86f943e8a98dcaae6bde6b898
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 10:05:47 2018 +0200
+
+    Added text cursor to Editor
+
+commit b41859768f3ff9984f62234238936103a88ae94b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 12 10:04:57 2018 +0200
+
+    Turned EditInput styke into Scss
+
+commit 46b9445df7f0eac306f6d016adea87a9997cb3db
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri May 11 22:24:03 2018 +0200
+
+    Added animations to tabs and archive in sidebar
+
+commit 512d810aaad09735fea31e8a368ee52e114fbe6c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri May 11 21:49:57 2018 +0200
+
+    Moved tab list to sidebar
+
+commit 64c51eab39509c3eb0ea0443a8de015ebf067fcf
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri May 11 21:24:40 2018 +0200
+
+    Sorted Imports in Main
+
+commit ce8d838340848dc7ab0fc6dc83c7fbcaa63e4445
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 7 18:48:25 2018 +0200
+
+    Improved Slides
+
+commit f67b01a511056f4c075664fe7245166fbd7b542f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 7 18:28:25 2018 +0200
+
+    Changed slide transition
+
+commit 548c8f477ff38b3f4e2f5910e15adc1ec11802ad
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon May 7 18:08:56 2018 +0200
+
+    Made slide toggle more intelligent
+
+commit 2c98683bf5e0594f7e65d3f2f9c02850ed8bc857
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 6 15:19:57 2018 +0200
+
+    Updated electron
+
+commit 89a05755a5b0b397b5b42f5680471251c51c0276
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 6 15:18:34 2018 +0200
+
+    Updated moment
+
+commit d5f085e13c0dfb1186adbb9e4f3617dd12611452
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 6 15:15:21 2018 +0200
+
+    Updated file-saver
+
+commit 7bc24b00e9c7654c413d98ce7b8decb1956c45e8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 6 15:13:26 2018 +0200
+
+    Fixed export
+
+commit 64bd096890efadb8d6a9374141e1f241728490d0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 6 15:05:50 2018 +0200
+
+    Added a few settings to remark
+
+commit f7150de3ef98f24bff00fc6e90eac4011cffe621
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 6 15:05:37 2018 +0200
+
+    Updated remark
+
+commit 233da25966b969c2b51038c306e0da7f290fd134
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun May 6 10:11:23 2018 +0200
+
+    Added sass loader
+
+commit 88f0f3c6b9c1b461d964b16be040a518176253ae
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 5 15:13:36 2018 +0200
+
+    Removed recursive ls
+
+commit 01d3103edca03dc1a7cef37416ff8a1627b309b7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 5 15:09:26 2018 +0200
+
+    Added recursive ls to end of build
+
+commit 5a947373a09b0a622cf93aba0933963de49c79e1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 5 15:08:26 2018 +0200
+
+    Finished new travis build script
+
+commit 4958abc2bbe5e5ce5dd20b2f06f25dc9a79b6998
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 5 14:58:21 2018 +0200
+
+    Ignore beforeDeploy for testing
+
+commit 8adce3a640ae4a9cb09f571830a04c768f4db37e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 5 14:52:28 2018 +0200
+
+    Moved test build and build into own script
+
+commit b523e139ad7c2d4cf7704e490e6cf3fe4fcd1fdd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat May 5 13:34:45 2018 +0200
+
+    Simplified config service dev detection
+
+commit 75f363ebf5a8ca23da889dc6327202ea4080167c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri May 4 20:13:45 2018 +0200
+
+    Added Contenteditable false parameter to image
+
+commit e1bef46c39d9ffa5eb7ac367a5412a5e94ae63b0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu May 3 20:54:58 2018 +0200
+
+    Added list support
+
+commit 00fd5aef93fa3f80d270546e73185eec9dada237
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu May 3 20:52:08 2018 +0200
+
+    Improved hr detection
+
+commit 849045d2071295b0f20fa5b4faeac5ec87c7797e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed May 2 19:13:29 2018 +0200
+
+    Added background to hr
+
+commit 1a70526a46e059b85b2b7a577b0b07161c47e0ff
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 1 18:41:37 2018 +0200
+
+    Fixed exit animation
+
+commit b038b45f18f2769f8d75ca2856182b6d5ab3cb72
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue May 1 18:40:04 2018 +0200
+
+    Saving search filter status
+
+commit f5f9a385a02f8071d05d41ada58a8e708b8da192
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 30 22:16:37 2018 +0200
+
+    Added search settings
+
+commit 0ba3599e2a3e0b7190f9e7f242e5391906a9b3f8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 30 22:16:16 2018 +0200
+
+    Added QFab and QFabAction
+
+commit 58ecab7a3e31345dea91cf695c7cc192a1319638
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 30 21:00:22 2018 +0200
+
+    Minor improvements to HR detection
+
+commit 77163f9afcbc555240488ff7fc24063e4593affd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 30 20:57:03 2018 +0200
+
+    Added hr to editor
+
+commit c56033c016223299d652ea10c0c73e119291dce4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 30 20:01:19 2018 +0200
+
+    Removed all code for Gadgets
+    
+    Gadgets were a good idea but in a verry early stage.
+
+commit 9406092a998d93dbdd6ee1f5d9c6fb2c4ecc2c04
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 29 19:33:44 2018 +0200
+
+    Added gadget help with rainbow example
+
+commit dd6d5a4f4861b703ab98ce41172346aa7a941bf1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 29 19:16:14 2018 +0200
+
+    Added rainbow gadget
+
+commit 9608b8b6dbc5e19b3a9a405a7afefd93ab154a87
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 29 18:23:21 2018 +0200
+
+    Created basic gadget component
+
+commit 30da3b6d370689cff0f2ed601d94463ec014a8f5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 29 18:04:13 2018 +0200
+
+    Added parser for gadgets
+
+commit ab95f5af8361c7d17f2e40e77e29fdac27de2610
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 29 17:45:19 2018 +0200
+
+    Added ability to not pickup gadgets from preview on update
+
+commit ed8c06e61b5a7ada86e6c416bcce35df190e4695
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 19:32:44 2018 +0200
+
+    Improved style
+
+commit d6208f5aebbb20389261f93a1579444ca68e7188
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 19:01:15 2018 +0200
+
+    Created method for headings
+
+commit 4b119a6cd36575273fbb4efc97fd9a59e53ccefa
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 18:51:37 2018 +0200
+
+    Moved creation of image preview to own method
+
+commit 09a025b4db0cbbebb41c21736c1e046bbc7c757b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 18:42:46 2018 +0200
+
+    Moved code for editor preview generation to onw service
+
+commit c60a302932b777bef908a91641986768c4336284
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 17:30:54 2018 +0200
+
+    Updated quasar-cli
+
+commit 17277933cef52075375de8940b3688abbfd974ff
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 15:14:11 2018 +0200
+
+    Bumped version to 0.0.23
+
+commit 349a46bc3b8c61b29f95be93352336bb9e96e090
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 14:58:21 2018 +0200
+
+    Cleaned up Config service
+
+commit 9f2c134d5dd75b03af9b13e6e7fd7179a9aeb6e7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 14:54:07 2018 +0200
+
+    Using new Config service for backup path
+
+commit 8914c1b468971de6dc0e8d0c924838f4de5f0f3c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 14:49:21 2018 +0200
+
+    Improved backupsTable
+
+commit eb6da0dc45c5275308009e159b72a99735f4c176
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 14:41:49 2018 +0200
+
+    Added notice to picture export when preview not open
+
+commit 4ed316c69f53d4204126228f34ec2bdf42bc8bed
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 13:59:07 2018 +0200
+
+    Moved tab context menu to own component
+
+commit 774ac624a179c97773abd0ac522632b44816fe3b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 13:51:12 2018 +0200
+
+    Improved table creator
+
+commit 6d55197e06ee33645123e9863617728b5a6663b0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 28 13:28:33 2018 +0200
+
+    Set editinput timeout
+
+commit 6b934f7fca3524a475d2ac7fffdd2ab0bf1781fa
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 27 21:26:26 2018 +0200
+
+    Added copyright file to deb package
+
+commit a87f3eed582de3a8c3bbe4e2c5bba3ca68f729e5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 27 21:01:27 2018 +0200
+
+    Improved image preview in editor
+
+commit e923c5c8395e18a7d624148f1e3d3bae0d290e47
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 27 06:24:51 2018 +0200
+
+    Adding welcome and example tabs only on first start or after cache has been cleared (init)
+
+commit dc4dcb1bbb6173ada45af3ce66fb508d093e201d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 27 06:14:29 2018 +0200
+
+    Updated error message to latest notification api
+
+commit 0a5c59416d24630a151144770866f97a14983841
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Apr 26 17:28:57 2018 +0200
+
+    Removed log from paste method
+
+commit a79c356d18de1132c9e1d3833e49e459c4532f96
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Apr 26 17:21:27 2018 +0200
+
+    Added update event when using paste method
+
+commit 828b0229997eb3234e7b0a68065f874cc947ba79
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Apr 26 17:16:50 2018 +0200
+
+    Adde table creator with ctrl + t shortcut
+
+commit 2b906703a4e0b2186b17c6dc129ec12d9a0926a6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Apr 25 18:41:57 2018 +0200
+
+    Bumped version 0.0.22
+
+commit b480758d22527e156b54412db224da827367dacc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Apr 25 18:14:17 2018 +0200
+
+    Added unset method to config service
+
+commit 946c5071e586950ec881061093650bfcdb9fa5fb
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Apr 25 15:58:06 2018 +0200
+
+    Fixed not working keyboard shortcut
+
+commit d1a9e9ed885ec18ee61189286fb2079b227393c5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Apr 25 15:55:34 2018 +0200
+
+    Fixed thenth tabs tab hint being glitched
+
+commit b6b536fcb29c78e2712c031e07c03c58cdea895e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Apr 25 15:48:18 2018 +0200
+
+    Replaced localStorage with new storage service
+
+commit edb7e6e5e18e9dea7a940dc79052e303ea4c001f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Apr 25 15:42:47 2018 +0200
+
+    Created config service
+
+commit fc370c83bc34e1b6b3987cd14b9bf2d3c4155948
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 21:00:17 2018 +0200
+
+    Changed logo
+
+commit 0f5da6b8229435223bff8a57959e2974af450b67
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 20:09:56 2018 +0200
+
+    Improved search handling
+
+commit 0f3b294e7c46b70760fe323db2562e20028f88d1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 20:09:32 2018 +0200
+
+    Removed sync option for search
+
+commit ed5eecbb06c0c50b93d459e69a20bdad1eb25f6d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 19:44:41 2018 +0200
+
+    "Fixed" bug where import wont do anything until reloaded or restarted
+
+commit 826e78872f187b7a52fbe0a07e173837eba2764c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 19:05:16 2018 +0200
+
+    Added spacing for tab hints for tab
+
+commit e5248655d35cb7a5891bca15d8b11518ed447ced
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 19:01:28 2018 +0200
+
+    Added shortcut sublabel to tab context menu
+
+commit e500204fcfd3fc198f49f9d8a81c5dff74d57c86
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 18:33:10 2018 +0200
+
+    Added fullscreen shortcut
+
+commit 3ccfddc3d5ac786a4761c2b1b2a7112e249111ac
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 24 18:12:26 2018 +0200
+
+    Fixed vuejs errors
+
+commit 73eaca736468fec68813ccf4664de186e7e5ba55
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 19:06:35 2018 +0200
+
+    Bumped version to 0.0.21
+
+commit 8f7c29b206bc804a92ad3779ec00c75f7f85f992
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 18:38:04 2018 +0200
+
+    Swaped export from photonkit to antimatterkit
+
+commit 204f5443ce0f8aed3a8f7ed955ab3db16d751fcd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 18:36:13 2018 +0200
+
+    Removed console.error from beautifier
+
+commit fed083d82f996c9cacd29c08b492721c18db3438
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 18:17:14 2018 +0200
+
+    Improved search tab hiding
+
+commit 552269365f28a6f49ab87e921db44cdf4d567fd0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 18:06:50 2018 +0200
+
+    Search input focused when search opened
+
+commit 7ba31c571459ac59622048bdfbbb7d82edfddfd4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 18:06:12 2018 +0200
+
+    Added archived tab to default settings
+
+commit 360459f7bb2dd1f54095505c51e2c2be7e0cc86a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 17:34:30 2018 +0200
+
+    Changed search shortcut behaviour to toggle
+
+commit 5ec3b9dd4f1efab5ea16b4e038a116fa8ba1d81d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 15:38:08 2018 +0200
+
+    Added archive to tab search
+
+commit 48c02515e63c5b7b0eed9bad5b3923140118cdd7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 23 15:30:37 2018 +0200
+
+    Added beautify and save shortcut
+
+commit 63a81bb8a5765033d5c7c12381581d9a5dfb0a0c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 22 20:56:53 2018 +0200
+
+    Added functionality to search
+
+commit ef50684dba1a13bb0c4d2c73feea1dfb9c5357df
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 22 20:55:54 2018 +0200
+
+    Fixed theme not being set
+
+commit 6f3029e439a55178ddee6edf6c22023fc2b02099
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 22 20:08:34 2018 +0200
+
+    Removed node-sass and sass-loader
+
+commit 18fbdbf948290693f86ea59a1b2414d6ec2d7fb3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 22 19:39:21 2018 +0200
+
+    Added sass-loader and node-sass to package.json
+
+commit 458dc4f13fd500436dad91955c77c2dba6d590b7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 22 18:54:38 2018 +0200
+
+    Added basic search modal
+
+commit 23c0ecf0bfdf68178f749f9425133118dbdc2750
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 22 18:22:52 2018 +0200
+
+    Set timeout to tab hint
+
+commit d27bdaed39c86536dd3f7623b92a92dc85ccd4ab
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 10 20:17:50 2018 +0200
+
+    Updated packages
+
+commit c64f559d96e2f1236cfad239b2158d0f89c9b2ea
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 9 21:07:53 2018 +0200
+
+    Set antimatterkit to latest
+
+commit 499613974a8031601225e5049a60ab58b2fafa38
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 8 17:22:50 2018 +0200
+
+    Removed unecessary quasar components
+
+commit fa0210927c776ac16f0bacdac0974b90f39aeb6f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 8 17:22:36 2018 +0200
+
+    Updated antimatterkit
+
+commit 16a84d37e0d5c58211b5b4f853abf6d5733ce47c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 7 11:19:00 2018 +0200
+
+    Fixed width in preview
+
+commit 953b153039dd1174136462094f1752cb1dea7be1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 7 11:16:06 2018 +0200
+
+    Fixed tabs using slides not being able to close
+
+commit 657a75c2eec506cb35521c246890fd86a40e081e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Apr 7 11:05:22 2018 +0200
+
+    Added darkmode switch
+
+commit 751f7009385e26041c21cad6effe0f3cb3da829a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Apr 6 23:26:34 2018 +0200
+
+    Replaced photonkit with antimatter
+
+commit 251a4c3a52e63aa51176fe91dee2eba584f3cc72
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Apr 3 18:12:14 2018 +0200
+
+    Used remark to beautify markdown
+
+commit c1c397ad101bdc9ecac9c0ef598b3d05707ff37c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 21:34:24 2018 +0200
+
+    Bumped version number to 0.0.20
+
+commit 1aad2eb251974b4b16fe17eeb6ea0cfcc85c7e74
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 21:29:39 2018 +0200
+
+    Added Slides help
+
+commit ea04f68a3aa7f2c81580a2e670098b2c37107546
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 21:27:29 2018 +0200
+
+    Fixed slide still being open after removal
+
+commit 00a774b4899f8ae5e6226a2b0db9217fb6145abb
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 20:59:48 2018 +0200
+
+    Fixed slides style issue
+
+commit 1af8ee23e563cd0c7899ee9e83f42066ae7c5786
+Merge: 606e334 a5fff15
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 20:45:53 2018 +0200
+
+    Merge branch 'master' of github.com:ExNG/vuenote
+
+commit 606e334031603790af8a7b807fb25fbd17b053f7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 20:45:49 2018 +0200
+
+    Added markdown to slide feature
+
+commit a5fff151624fbb3bef2272ecc9d471d4d1b366d0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 20:32:13 2018 +0200
+
+    Fixed issue with object not being as intended
+
+commit 5d6a2973982ddc5a8106ffd9eec51d1e5d0f52ba
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 16:57:34 2018 +0200
+
+    Futureproofed tabs
+
+commit 9364e6823276d1b53777a5b72fda2c9ed572e128
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 16:48:16 2018 +0200
+
+    Moved tab creation to service
+
+commit 40c3fde70fead1a583d9fca80305b679ba470f0b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 16:14:39 2018 +0200
+
+    Changed archive icon
+
+commit c8378c04d8c0f046c4381c0754fbc4f4958e3fe3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 13:42:06 2018 +0200
+
+    Added tab selector to export
+
+commit 902f5572125a9db23847454fd0a6986e03bc43c1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Apr 2 11:23:38 2018 +0200
+
+    Copying icons before debian package build
+
+commit 32a24adda3df1adc411f1db51b0edeb1cc85756d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 21:43:40 2018 +0200
+
+    Bumped version number 0.0.19
+
+commit de189a8be1eb77897dfdf850cdd3a4466eb2f3c4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 21:29:02 2018 +0200
+
+    My bad
+
+commit 552c07188e83b816f87da597d06e9865ff3bbd22
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 21:25:26 2018 +0200
+
+    Changed dist foldr to list
+
+commit 959a3b8dfe9c1e01ea15becfe676cb378df16130
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 21:15:53 2018 +0200
+
+    Added desktop entry
+
+commit 8520814b7c32830619944f8bb10f12b4ad1d7023
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 18:52:05 2018 +0200
+
+    Added list to normal build
+
+commit 6d69e7bc59e78437df2fd38bed5de06a68727819
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 18:44:47 2018 +0200
+
+    Restored before deploy
+
+commit 44914ba9dbbae74758f2cf5410cbdfe1ab2b61d8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 18:43:01 2018 +0200
+
+    Changed name of .deb package
+
+commit b79c7c0fc2ccfe868010b926a2f4d75aa9866579
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 18:28:55 2018 +0200
+
+    Testing debPackage script on travis
+
+commit 8bf160ad7013f28339d3e085cebec0d519a37ad3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 18:26:03 2018 +0200
+
+    Added script to build debian package
+
+commit 853e121211ff11bc5e5618fb00d52d7df71399c2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 18:24:58 2018 +0200
+
+    Added ncp and node-run-cmd
+
+commit 867a484d3a0c3476996867db750bd1b8ae7bbf15
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 18:24:04 2018 +0200
+
+    Removed whitespace
+
+commit 7d2a3a7731f05b35544024f3ec3c552f1b76db49
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 15:25:43 2018 +0200
+
+    Removed link from heading and added button instead
+
+commit ccc15b790dfef4577936f667e483ef9c23601d0d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 15:23:48 2018 +0200
+
+    Made heading link to root
+
+commit 2bebbc197cea87698caffad77580fb63b08e6204
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 15:20:03 2018 +0200
+
+    Removed zipball and tarball buttons replaced them with link to releases
+
+commit 6ef4968da231366a5e1358a1a625531abc51d7be
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 15:09:30 2018 +0200
+
+    Removed site parent
+
+commit def0e1ba350f5283a7b97c0103ece1eb256a24c7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 15:06:21 2018 +0200
+
+    Added site title and description
+
+commit 857c84c2a4f33201a6e6765d4b2aa122a8184dca
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 12:34:36 2018 +0200
+
+    Fixed help link now
+
+commit 3adec10c34c8869a19491d7438414e5d44037a53
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 12:32:37 2018 +0200
+
+    Fixed help link
+
+commit 8a0c9604186abada6296fadfecef6f74acf0f96c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 12:31:53 2018 +0200
+
+    Added link to Help
+
+commit b593bdd4a9f91c3fcfcd82d9e382756991c59c9a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 12:29:47 2018 +0200
+
+    Fixed Help link in Docs README
+
+commit 1bf203e8cfeda04ccf88181fe1b890f9bf0a8d6a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 12:01:31 2018 +0200
+
+    Moved list of help articles to own page
+
+commit d23eb2f2bdc57b70233077bac3147fdfbaed508f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 11:59:19 2018 +0200
+
+    Added npm install to dev script
+
+commit 27b157982749bef013633cb96a5308a077b76b86
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 11:59:04 2018 +0200
+
+    Changed README
+
+commit df6886c79b9687ebf8f93fc5b7ee733ed9ac60d3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 11:39:49 2018 +0200
+
+    Changed welcome tab
+
+commit e722029bbff57e30d3169baaddcddd2c289b27e7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 11:37:38 2018 +0200
+
+    Updated image regex
+
+commit 6e363b81c7a3dacdcfc99031ba6bfa562168ccd6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 11:25:03 2018 +0200
+
+    Included space in image title
+
+commit c6c528f8df7dc1ecbda8512a8081447e4be6810c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Apr 1 11:24:32 2018 +0200
+
+    Disabled markdown preview by default
+
+commit e79fb645463b509b4485cb4a80e822857cde9f7b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 22:44:54 2018 +0200
+
+    Updated Vuenote screenshot
+
+commit 363ea1584d5ff2d5cff398a6750b634cdca1b440
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 22:33:22 2018 +0200
+
+    Removed paste heading shortcut
+
+commit ed47819e97504471764bcf6905b0b6a514b4f18b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 22:29:17 2018 +0200
+
+    Added image preview to editor
+
+commit dd4eab1cf06360e7c85a318b8d53d7348b006f0c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 21:47:27 2018 +0200
+
+    Fixed empty lines being ignored
+
+commit bcbf2ee283ae0d6e36890f1701f9379efd1cae16
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 21:27:54 2018 +0200
+
+    Build custom method to serve content as textarea
+
+commit 91faa935c5e3e0456a7748b913ea974b0ac96737
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 17:53:04 2018 +0200
+
+    Added save on archive and on restore
+
+commit d16970de6655511c79a5960eb5633317cae67be9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 17:51:01 2018 +0200
+
+    Moved essential styles to app.styl
+
+commit 5b76eac2d182d75706e130c98a2bce633a63c421
+Merge: 5119761 38ec41a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 17:47:52 2018 +0200
+
+    Merge branch 'master' into custom-input
+
+commit 38ec41a180406abb727aaf4a67cea8dbe25e217c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 13:28:09 2018 +0200
+
+    Bumped version number to 0.0.18
+
+commit c7954726c03d22b1fd2bcf00fbd86c3bcafd3a86
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 13:25:58 2018 +0200
+
+    Removed coverage badge
+
+commit dc57f8191fb1553451db6b09b7527167083a4e1b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 13:20:13 2018 +0200
+
+    Added tag badge
+
+commit fc5300def9aff3f97c48d90758be5305367e44b7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 13:13:42 2018 +0200
+
+    Added Coverage Status to README
+
+commit 511976155c8cae027f3896bfc7098402413e9826
+Merge: 70eba42 81fbb6b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 12:55:07 2018 +0200
+
+    Merge branch 'master' into custom-input
+
+commit 81fbb6ba8c4392233f92e7b8bf1cb8019241ade9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 12:52:16 2018 +0200
+
+    Dependencies are now linked to their respective npm page
+
+commit 961a8761d4372517b38ec7dbb95f842a392225f1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 12:42:14 2018 +0200
+
+    Removed link to help page because it does  not create an directory index
+
+commit cc674afcd2c27a87a3fb48229b111cc56241d770
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 12:39:38 2018 +0200
+
+    Added link to Github Gists help page
+
+commit 57bee6acd37647c3b61af2c968787190c98e4626
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 12:38:42 2018 +0200
+
+    Renamed Help to help
+
+commit 6c03e9ef53e11bdf313cec1546574f5b64f529af
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 12:36:51 2018 +0200
+
+    Include downloads in header
+
+commit e980e8f19c6675aaa085e8f5d7c3500abe14b016
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 12:28:54 2018 +0200
+
+    Added Help page for Github Gists
+
+commit c9305997c7267e8c27a7484cfab38e5711108fc8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 31 11:29:47 2018 +0200
+
+    Moved Github Gist management to settings
+
+commit c222d2f3a585bd964efaf21d16bb92b287b7376e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 20:26:16 2018 +0200
+
+    Renamed default to Main
+
+commit fb0c29e7d45d4a8f26307f3935781c4a221dc1dc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 20:25:03 2018 +0200
+
+    Fixed shortcuts being active in other pages
+
+commit 7129e2aecd5f59a6c4826c1ceec9a23d88b7a2ed
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 20:19:14 2018 +0200
+
+    Moved settings into own page
+
+commit cb6c039118b942c2dab14c0202b95ee6ea69a9a0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 16:38:00 2018 +0200
+
+    Added support for Github Gists
+
+commit 1ade72395a4b930f174ff7287ec7232090892db7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 16:37:28 2018 +0200
+
+    Added axios for api services
+
+commit be3e1cd1bf23ef1092fad9ef17a6675781bca413
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 16:36:35 2018 +0200
+
+    Added Gist getter in Github API service
+
+commit 0513a3059f073cfbdc5575d06b44482222e0c10a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 15:28:49 2018 +0200
+
+    Added cloud item to structure
+
+commit 1a90f713a2a7096e2607ae5c5b5191e1059b4c8b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 30 15:27:36 2018 +0200
+
+    Changed replace symbols
+
+commit 005102ba227b5fa3b952675cf2bcc70adb7e9e2c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 29 21:48:27 2018 +0200
+
+    (Hopefully) Fixed issue that tabs could not be closed
+
+commit 21cc73462d5940a6454be2fbe8167d630381de5b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 29 21:08:28 2018 +0200
+
+    Showing tab switch hint only visible when option (alt) key pressed
+
+commit 3bca796a058753b34b522ceee08d4ab1de98b428
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 29 20:52:37 2018 +0200
+
+    Updated electron
+
+commit f67e18a1e024869db3ac4e6d3726e841e58db504
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 29 20:42:57 2018 +0200
+
+    Updated travis build script
+
+commit 19120d24a73de30ad576edb357bba8756270e457
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 29 20:37:35 2018 +0200
+
+    Updated quasar-cli
+
+commit 4afc05d7a00dbdbfca9d25084ecbee6793381909
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Mar 28 20:32:58 2018 +0200
+
+    Changed addTab parameter to object
+
+commit 70eba424c8ef0a96fccdc4681890ad3345cef962
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Mar 27 20:49:17 2018 +0200
+
+    Added dev script
+
+commit acfdfe770eabcc469f853bd7e30d5a785961dab0
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Mar 26 21:29:40 2018 +0200
+
+    Removed contenteditabale
+
+commit 9bfceac82e897f57f4022040852226deb3254d47
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 25 21:00:23 2018 +0200
+
+    Added devDependencies to dependencies
+
+commit b6ba2ef02daa640a7d17444426c8f3894323d03a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 25 20:50:54 2018 +0200
+
+    Added cloud to sidebar
+
+commit 54a64bafb32bff38c58a89346a6324b2d77116ed
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 25 20:25:54 2018 +0200
+
+    Updated icon
+
+commit c3aab1bda66d5e04117937f9c32ac5ebfdd84334
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 24 21:58:16 2018 +0100
+
+    Updated quasar
+
+commit ddd9a00c7c0e82bf0b5f496a7cd86080e99f3ddd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 24 21:53:30 2018 +0100
+
+    removed axios and vuex
+
+commit bb2887cd3e17297d4eb410b7a9b06ed990a042e8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 24 21:46:41 2018 +0100
+
+    Removed unecessary content
+
+commit 1bdde02312748c37cc02ab360880a85678329c66
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 24 11:04:27 2018 +0100
+
+    Improved look
+
+commit 6f66a506b9e36f415c32144a238147d39e16b2b1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 20:14:07 2018 +0100
+
+    Improved hyperlink support
+
+commit b770c8d031f19b82712f55c593c9efefb92b4268
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 20:08:23 2018 +0100
+
+    Fixed not like hyperlinks looking hyperlinks
+
+commit 13e8be0d05dbfb325d12a2fe2e0580b386866d30
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 17:47:14 2018 +0100
+
+    Increased margin on shortcut hint
+
+commit b8d9f5a314d8432301a6e825aeb3af998ee69673
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 17:43:15 2018 +0100
+
+    Changed shortcut notifications back to info
+
+commit c8de4b8bd571c58cc9f12eee45dac6fbde08c0fa
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 17:29:53 2018 +0100
+
+    Updated readme
+
+commit ce1c1d6028b4e2375b1adbf713d915d7347af1d1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 17:06:38 2018 +0100
+
+    Improved travis build script
+
+commit 9a6511d9ab9c4d79f71480d8ca44308a661e0178
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 16:49:51 2018 +0100
+
+    Bumped version to 0.0.17
+
+commit 245fb7c995b78bc5310bcb38b1c695eb69c61a50
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 16:39:12 2018 +0100
+
+    Fixed typo
+
+commit 54f8b72dbacb88b838a601f32514e52c1e420be1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 16:38:00 2018 +0100
+
+    Renamed vuenite to vuenote
+
+commit a230fc5b3dc6f2b533bad8f27da385ad4d0f317a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 23 09:32:02 2018 +0100
+
+    Added hotkey hint
+
+commit 76223311ea1c61125f3661e812619ccf4c1527c7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 17:35:20 2018 +0100
+
+    Bumped version to 0.0.16
+
+commit b0739f2109e3602baf8a6757acff6915db0559d6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 17:34:28 2018 +0100
+
+    Updated notifications
+
+commit b6aeeda569fd2bd3ac578de3c3d035eb0e9a9aeb
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 17:31:03 2018 +0100
+
+    Added notification customization
+
+commit d3a41236d4513fe2d5456c0d2879b46a92dd2206
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 17:18:29 2018 +0100
+
+    Added replace feature
+
+commit 005e1dd5e42320b0f1856e8526c3537e2d2dc4a1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 11:19:55 2018 +0100
+
+    Added settings shortcut
+
+commit b382b2a3745357ebe726849c27c32f41336a5310
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 06:06:57 2018 +0100
+
+    Html2Canvas works fine
+
+commit 70c9e844ee8e6d5c7cd6c418aef16b326185b7e7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 06:02:35 2018 +0100
+
+    Bumped version to 0.0.15
+
+commit f04bf6f2e70ed5438053faaa3026a4d331a1e71a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Mar 22 05:56:10 2018 +0100
+
+    Fixed bug not able to close all tabs
+
+commit ae044a17043c08ec5e7b70812ad47846048d6ab4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Mar 21 18:34:10 2018 +0100
+
+    Added new tab shortcut
+
+commit 1b86d6ffafa5b4e7284a543981e8b65a10b76dd9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Mar 21 18:31:17 2018 +0100
+
+    Added archive shortcut
+
+commit 3599c8b056d5fc8c38f2431922248b612ca66478
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Mar 21 18:14:51 2018 +0100
+
+    Added quit shortcut
+
+commit c0f15bf3eaeb40adfb27a5c627713d664bf8ab30
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Mar 20 18:41:52 2018 +0100
+
+    Bumped version to 0.0.14
+
+commit c6718f7e6d11b2b8c14e765ab4e82f49b6d2dd92
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Mar 20 18:38:25 2018 +0100
+
+    Added tab switching shortcut
+
+commit 6abd461246ffca165e6723a6057844e85de8719f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Mar 20 18:19:14 2018 +0100
+
+    Deleted unused debug service
+
+commit 33801e29fcd48abf55bffaf1762d2c820240b080
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Mar 20 18:18:57 2018 +0100
+
+    Set notification timeout to 5 seconds
+
+commit 89adb294e6204ceadcd507d545a58ceeffe70ced
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Mar 20 18:07:37 2018 +0100
+
+    Remove native notification
+
+commit 87ea67e2c8db0c068b626b7f6e44016ee4758b3b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Mar 20 18:02:46 2018 +0100
+
+    Removed random float in new tabs
+
+commit dac88ada6834094ea76e51994b84af4e28495133
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Mar 19 18:53:19 2018 +0100
+
+    Bumped version to 0.0.13
+
+commit afe897efb6a55d8e1a22bb5fd9e28fb43b7639e1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Mar 19 18:51:56 2018 +0100
+
+    Added overlay shortcut
+
+commit 9fada1ba0a29ba6076f5b41b862b60de72dc25ec
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Mar 19 18:43:36 2018 +0100
+
+    Added editor toggle shortcut
+
+commit 3208c1d0bb88491ff5ec43a4cedd24f77aff9ebc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 16:45:25 2018 +0100
+
+    Hiding dev folder in production
+
+commit b1981860b2cb351fb2c848f7619eb02372456f03
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 16:35:40 2018 +0100
+
+    Reduced size of scrollbar
+
+commit 70cd01153a83876df1005604a9adab419790cf7e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 16:31:29 2018 +0100
+
+    Updated Docs
+
+commit f7245a35ac370a468333b9d55a11bfdb4f6bbdc8
+Merge: 2fb8696 a885a5a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 16:31:06 2018 +0100
+
+    Merge branch 'master' of github.com:ExNG/vuenite
+
+commit 2fb8696cdd560c7385340199841b8c15dd3cd21c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 16:30:26 2018 +0100
+
+    Added button to show/hide backups
+
+commit a885a5a8bc120309b2f81b85bfd5e8f4ddf3a7ae
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 16:01:59 2018 +0100
+
+    Delete CNAME
+
+commit e150ad2c9885d331c4df23a4fc16402490bcd40c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 16:00:27 2018 +0100
+
+    Create CNAME
+
+commit e53a9343c76e745758bdedc25e63a0c8b25a67e6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 15:56:49 2018 +0100
+
+    Set theme jekyll-theme-cayman
+
+commit ab1ebcd6385a6badb5453f14fb19f47344a03367
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 15:34:41 2018 +0100
+
+    Reduced backups to daily
+
+commit 2132377b42ced723a8cce982f3c4d875810a80f4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 11:23:51 2018 +0100
+
+    Added backups table to settings
+
+commit ce936da06cce62ab513095d5eaea2060cbe95d92
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 11:23:36 2018 +0100
+
+    Added list, getContent, restore and delete to Backup service
+
+commit 8c51538cb7520e821e15235f427d1849b9c23f8a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 11:22:40 2018 +0100
+
+    Changed suffix to AfterMerge to avoid confusion
+
+commit 8466c1839db4dacfb14538e2587624981b17af61
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 11:17:02 2018 +0100
+
+    Removed backup from Storage service
+
+commit e1312f3f8175858eab2bf4fbbb790716fddec0b4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 10:24:45 2018 +0100
+
+    Created Backup service and moved exiting code there
+
+commit ddad00d7edec99bfd7227c1fa0cc3f4315b35ade
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 10:02:10 2018 +0100
+
+    Bumped version number to 0.0.12
+
+commit 93255bef311cacb5fb0f9755b7a658671e6a7350
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 10:00:23 2018 +0100
+
+    Added icon to electron renderer
+
+commit 45340ac740c991e13d752dc8d5b8889aff18e595
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 09:53:50 2018 +0100
+
+    Added timezone to filename
+
+commit 56bf3e27a968f0fb348472d5d31aa54f02240615
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 09:53:02 2018 +0100
+
+    Removed unecessary code
+
+commit b8f68206ebb977413db745bb09140d93102bf374
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 09:51:35 2018 +0100
+
+    Removed prefix param, backups in subfolder dev when not in production
+
+commit 1d82dcbf2580ba491efad290e4a680224b3aa615
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 09:46:30 2018 +0100
+
+    Moved backup function into Storage service
+
+commit f130d38d29c77fc60afe57d2b4237888d54b1462
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 09:42:39 2018 +0100
+
+    Minor improvements to Backup function
+
+commit 6e743fb8d724fd1904ab2095fd873b570eb81e04
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 09:22:35 2018 +0100
+
+    Added backup on every startup
+
+commit a77fdee1b1274e903465ce967dd11129fa3d2b60
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 17 09:21:59 2018 +0100
+
+    Added moment
+
+commit 669ca570a07bdf02816e674f9be8ec5519e821dd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 16 11:05:34 2018 +0100
+
+    Added Screenshot and Copyright notice to README.md
+
+commit 5dd997313f25e6e7eb8d26fda0196ef9bfdd905f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 16 11:02:27 2018 +0100
+
+    Added vuenite screenshot
+
+commit ebc77568d412a4da83b806d8252791ed3b7546e1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Mar 16 11:01:57 2018 +0100
+
+    Added docs
+
+commit f6918723ab5084b1cbe0d4a2c006db93a1d9286d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 22:22:31 2018 +0100
+
+    Bumped version to 0.0.11
+
+commit 710f1bc3158e2dc0a5521ce3e6ba0393a8890cad
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 22:11:32 2018 +0100
+
+    Added photonkit style to html export
+
+commit 12a2fd6765bc50ba6cdf7464d50acb773f93ba07
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 21:38:40 2018 +0100
+
+    Minor improvements
+
+commit b2a7ddec757e51017856650f5d13636eadb08333
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 20:54:21 2018 +0100
+
+    Moved window shortcuts to mousetrap
+
+commit efd9b0e855938c433f3fbc8fce6910e1f80bb728
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 20:53:43 2018 +0100
+
+    Added mousetrap
+
+commit 566c1be96c29cfcda9bc24270d53973ce27e4e47
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 20:38:43 2018 +0100
+
+    Added icons to src-electro
+
+commit 33f1dd0d278be01f89fab15a2cfcaa5f53424768
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 19:44:35 2018 +0100
+
+    Bumped version to 0.0.10
+
+commit 9c5da8faee17e731166951d70e9aa4a4ccace71f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 19:42:57 2018 +0100
+
+    Added pane toggle shortcuts
+
+commit 55fda9a53366c4333ec8edc051d315623dc7159f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 19:42:38 2018 +0100
+
+    Added shortcuts modal
+
+commit 539725dd738917e16e70bc0957e19759098087e6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 19:42:03 2018 +0100
+
+    Added heading shortcut
+
+commit a2f1c7b88619a2ea4a54b552dfff94d26602f081
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 19:41:14 2018 +0100
+
+    Added padding to code
+
+commit ac08bb306792223df1463c558a4573c338ca341e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 19:14:15 2018 +0100
+
+    Set compression level for zip
+
+commit aedb7ce7ae1e95fec4f0926bc7ac84a4b7caa91b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Mar 11 19:06:10 2018 +0100
+
+    Added icon to build
+
+commit c18ce9721572ba4aabd25dcf4c3c3da282d9b6fa
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Mar 10 17:16:12 2018 +0100
+
+    Bumped version to 0.0.8
+
+commit 1b93c330301bb57cd05b9a7e2c19ed2960437a5b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 27 19:01:55 2018 +0100
+
+    Added scroll past bottom
+
+commit dd2f649dbf0cf37cba8512a19fea82761badb78c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 27 18:59:10 2018 +0100
+
+    Added tabs
+
+commit 38f9c10eda5ef2457c9b21e517643172039f207b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 27 18:51:46 2018 +0100
+
+    Fixed key needed to be repressed to use second shortcut
+
+commit 0b0555af186318a0c0f32bdaa78b3a402e49cd69
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 27 06:16:10 2018 +0100
+
+    Added basic hotkeys
+
+commit 3fabd3b00f373602e68bb3fb447205af0b4fa9b8
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 25 16:46:23 2018 +0100
+
+    Updated README
+
+commit deee5e02baab858ef7b9c9a267c2879dd2df4d8b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 25 16:42:03 2018 +0100
+
+    Set correct icon
+
+commit adb00ad916ce55c25e60a2f2d925712f452cae15
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 24 22:58:12 2018 +0100
+
+    Updated electron
+
+commit 94d678f7c4880d84b8864748c2fcb621905c6402
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 24 22:18:30 2018 +0100
+
+    Fixed build script
+
+commit fc357a65c0913b445b97fbfc1e2bc05a70294f32
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 24 21:58:03 2018 +0100
+
+    Upgraded project to quasar 0.15
+
+commit 32b7f9b5d66aa9e567810e5cbc1201a5fda66ac9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 21 21:36:50 2018 +0100
+
+    Bumped version to 0.0.7
+
+commit 0e7088e746dca63c1f0f83f7d47134d1814aac4f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 21 21:35:39 2018 +0100
+
+    Added settings pane animation
+
+commit e916b97cbbdc7c54fdc9f17ca18cac3e233b890d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 21 21:27:03 2018 +0100
+
+    Set quasar-cli to version 0.6.5, will upgrade in near future
+
+commit bc0c86cf3f609d7568d771547ed75a6ed254f59f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 21 21:17:39 2018 +0100
+
+    Added importJSON to settings
+
+commit d0c86685e4cf9c6aa7b09f9002c057c81501773f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 21 21:16:33 2018 +0100
+
+    Added importJSON method to Storage
+
+commit 7f608630459c591ba04c52cc5df6eeb27f04b54b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 21 21:09:32 2018 +0100
+
+    Added export to settings
+
+commit cc343686345ef5261d4c39c4115be7f6ed7cc3d5
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 21 21:09:17 2018 +0100
+
+    Added getExportJSON method to Storage service
+
+commit c5c092d453ec87bc644bba2fef1bc704094c1c0e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 20 20:31:20 2018 +0100
+
+    Removed blank line
+
+commit c8c317d3b8f367d919ab4d8128c9226a51cf15ab
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 20 20:30:46 2018 +0100
+
+    Added code documentation to StartupHandler
+
+commit feb04a7cb57cb37974d19f03aace706221707cd3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 20 20:26:19 2018 +0100
+
+    Added code documentation for markdown service
+
+commit 48d093168844d9d5dfa88875f5ef7fa5fb96e28b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 20 20:20:14 2018 +0100
+
+    Fixed sad text clipping inside settings
+
+commit 077ff7b3c0a8090389677551da5ff27a5336c700
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 20 20:12:22 2018 +0100
+
+    Added settings pane
+
+commit f299c728a51fc1021de65b26447b1d19111810b1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 20 19:36:14 2018 +0100
+
+    Added storage service documentation
+
+commit 73b2f59da9acea652cf220e0ad6c8ae5e34da103
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 19 22:26:16 2018 +0100
+
+    Added electron and webpack to dependencies in about
+
+commit b074022688ca58ef4b26129ce9829ba81fda5afe
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 19 22:06:39 2018 +0100
+
+    Added notification test button
+
+commit 8cdfd3a469ffcd7479e0bbb350a33b1b480e009f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 19 20:14:14 2018 +0100
+
+    Added dev tools to debug menu
+
+commit 3a0f6175ac65bf02fc36f846cb9aa23d3dab60b4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 19 18:32:23 2018 +0100
+
+    Added lightgrey background to input
+
+commit 2489f518a0a3f71144c39c38c65d1609e16c0d39
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 19 18:15:39 2018 +0100
+
+    Bumped version to 0.0.6
+
+commit 2be5bbc70b9165e08505889a8336f5703cc8b658
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 19 18:14:35 2018 +0100
+
+    Removed photonkits window frame, caused too many problems
+
+commit 2e3b998b89ee2e977da561e602db85b8bb0387ed
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 18 21:07:34 2018 +0100
+
+    Added appData to storage structure
+
+commit af4186281773b57488840a843dc1ffacdc082ab9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 18 21:05:44 2018 +0100
+
+    Added storage updated to prevent future changes from breaking bevause of old data
+
+commit 108dbfd6fc9b8c010b694aa78d6a1bdb2be7781b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 18 13:49:02 2018 +0100
+
+    Bumped version to 0.0.5
+
+commit 826c0dcd3087ded7d8cf358bb32a0e2a26b4661e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 18 13:46:20 2018 +0100
+
+    Implemented new notifications
+
+commit 1bb3840e1572ef7760a2392b2a7c1ba24451d30c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 18 13:39:36 2018 +0100
+
+    Added notification service
+
+commit 1ced94b1d0b9855169fff636d6cf1b70b5390a79
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 21:53:03 2018 +0100
+
+    Fixed readme
+
+commit 7fde0fe57eeb627c5d51884be2b5bc6f3c862768
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 21:35:13 2018 +0100
+
+    Bumped version to 0.0.4
+
+commit b37185899b383fac31626787934e1c59a0a48bcc
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 21:34:15 2018 +0100
+
+    Added archive function and saving of pane settings
+
+commit 244c977d1b79c5020b9975dd698d675cf6662637
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 18:24:41 2018 +0100
+
+    Bumped version to 0.0.3 and added remark
+
+commit afbda640e515572660f2a6c9c9ff104c6cf8599a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 18:15:33 2018 +0100
+
+    Added markdown format (remark)
+
+commit 2fa7bf4a28a0cf79b5b41ace71e5ce4a5ebc0a4f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 18:11:55 2018 +0100
+
+    Improved window controls and increased default window size
+
+commit 4a129cbf83837a0647aae1ed74c7764c9333cc1d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 13:10:06 2018 +0100
+
+    Changed description
+
+commit e0c1db2abc5daad6284ce15dbede44e508f86f28
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 13:00:30 2018 +0100
+
+    Fixed window not resizeable on header
+
+commit b821e3d89ca1e3d7450661f0f9ec16aebe7643af
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 11:39:51 2018 +0100
+
+    Removed test ouf of components
+
+commit 0b45beec43a3d80ceacc5f29b3cc329117cd2a8b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 11:34:14 2018 +0100
+
+    Improved window controls click handling, removed test component
+
+commit 017cb9fc33889a524f2a036adc2e96fffa346488
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 11:29:28 2018 +0100
+
+    App information now based on package.json
+
+commit 1e3034d27d1c2daf170712ea636f1ee4e33bdcc1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 17 00:24:13 2018 +0100
+
+    Removed system window
+
+commit 8e2e55f6137cb922cfeb1b97ee9365596b5d64c4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 23:46:13 2018 +0100
+
+    Added link to github issues in debug menu
+
+commit b7575781705f223dd005ba17bbd21140ab7ffa09
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 23:45:56 2018 +0100
+
+    Bound quasar app to electron
+
+commit 5f72f09ba322a8bff8db9944c3f4cf86eb995222
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 23:10:34 2018 +0100
+
+    Updated package-lock.json
+
+commit 15251c9bf3f4cf11a5835d863d6a6b03a97d1746
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 21:17:19 2018 +0100
+
+    Bumped version number
+
+commit 3f08bf328bd9236941249517c737ccba871929ba
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 21:01:58 2018 +0100
+
+    Minor debug dialog improvement
+
+commit dbd12e7bab3f0bf077cb6e522d933cc9ebc37e82
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 20:57:31 2018 +0100
+
+    Renamed dialog method
+
+commit 3a0f232ad084c950b879912e302c888387586c58
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 20:57:19 2018 +0100
+
+    Created init method and added basic structure
+
+commit e9231f82596747ebadff796d5272b1a2039a40bf
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 20:57:00 2018 +0100
+
+    Added debug options
+
+commit 5d454644c36720fc75da15bb40ac3cba9c8c016f
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 19:36:38 2018 +0100
+
+    Added notice if store would fail
+
+commit 8add58c1b0788a4f1bcdeaa92eb96db034171486
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 16 19:36:26 2018 +0100
+
+    Added markdown it checkbox support
+
+commit 3481e0dd50f80990b59b0420b302db8b5a1c334a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Feb 15 23:03:18 2018 +0100
+
+    Final changes for v0.0.1
+
+commit 10dc3ed68e16602962ab9b58bc3f077cbe109e6b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Feb 15 22:41:41 2018 +0100
+
+    Added deployment for tags
+
+commit 59fcf49ae1999f49fd26b66a654103f0666af7b6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Feb 15 20:21:01 2018 +0100
+
+    Inserted new icon
+
+commit 6ffa6ee271564c1b9aae815fdc0ffb829055ed75
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Feb 15 20:20:48 2018 +0100
+
+    Renamed old electron icons to ...bak
+
+commit bedcf28885b1b6c40090ee4f04f321f184e07576
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Feb 15 20:20:29 2018 +0100
+
+    Created app icon
+
+commit cf4d52e341459a2fe7ce096ba674e472272ad5ea
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Thu Feb 15 19:57:40 2018 +0100
+
+    Added save function
+
+commit deff92a7526f4cb3bc9ccc6c11270b8880f1df99
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 22:23:12 2018 +0100
+
+    Moved Markdown parser and Export dialog into seperate service
+
+commit 4f469eaaced61895f182dcae724c59642f05ddd7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 21:37:55 2018 +0100
+
+    Updated About
+
+commit 011cf1f4f49a08aa82951b1fc2f0256f70da56e7
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 21:37:05 2018 +0100
+
+    Added picture to export
+
+commit a0b21ade9cb52834f1d27a2a443a78e5680ded3c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 21:32:01 2018 +0100
+
+    Added Html2Canvas
+
+commit ebc146c7662683712b30dc77b40f5d6c981b810d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 20:24:08 2018 +0100
+
+    Worked on readme
+
+commit fe433528749b735bcac1c4fda9e348f1cae4fcf3
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 14:27:15 2018 +0100
+
+    Added wine for windows builds
+
+commit e04ff2c94f2cd73be0753e9b7ec5631b603ede9c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 12:55:32 2018 +0100
+
+    Fixed quasar building in electron dir
+
+commit 27f654fbfca4db928951d63b25b425895b004aaa
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Wed Feb 14 12:51:57 2018 +0100
+
+    Added travis config
+
+commit 429fa9ed9dd8cb5be3431f75c68148d4d4c6b966
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 13 22:39:39 2018 +0100
+
+    Fixed scrollbar appearing when enabling preview
+
+commit 6aeb180de151c744a038dc2fb113d8ac1d915e52
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 13 22:30:25 2018 +0100
+
+    Added html export
+
+commit ee3cd176c7689e97e830ec82f80e32f1965554de
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 13 22:15:49 2018 +0100
+
+    Added export as txt feature
+
+commit e7d46cae46c12e055f61f42cfb2bcbe8de7c9975
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 13 22:08:16 2018 +0100
+
+    Added File-Saver
+
+commit a2f6fe1bffd183d128559413faf7c25a14665ff4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 13 00:07:14 2018 +0100
+
+    Animated some components
+
+commit b43a4eaf89f8da01669231a8e36194c8b400cd3e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Tue Feb 13 00:03:18 2018 +0100
+
+    Added animate css
+
+commit 2adb16450a75c96f4e4dc177e78013f2745b713a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 23:51:24 2018 +0100
+
+    Changed window title
+
+commit b888302696deb300e393c5855a5c0b844baa5c2b
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 23:48:24 2018 +0100
+
+    Simplified view toggle
+
+commit dd481d114e0c939ec5ef5017d93e2b1df03f2321
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 23:48:10 2018 +0100
+
+    Changed about dialog
+
+commit 6ab550dd3a5aea48e4e39a2f4805986b77a4c4b4
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 23:37:24 2018 +0100
+
+    Added MIT license
+
+commit ba75e4020508db6f2c6b981f106443a3514697b0
+Merge: f05cc64 e011e89
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 20:03:39 2018 +0100
+
+    Merge branch 'master' of github.com:ExNG/keeper
+
+commit e011e898938d10b1845b743ec504a6d1f5f97ef2
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 09:49:02 2018 +0100
+
+    Updated name
+
+commit ddc19f642d67bd6de636c198dfaec0219c88291d
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 09:48:11 2018 +0100
+
+    Updated name
+
+commit f05cc644486c6a3cb7593fd08016b4395876af9a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Mon Feb 12 01:00:47 2018 +0100
+
+    Made input field minimum the size of the window height
+
+commit 0a60f46da6893ea5e2f4d21e3a8294575fca7eb9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 21:23:24 2018 +0100
+
+    Configured markdown-it and set all links to open in a new window
+
+commit 8d4192a6901eb20ad8ca77445e2834e6428de994
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 15:47:44 2018 +0100
+
+    Fixed new tab name, changed pane control icons and added code styling to preview
+
+commit 3bcf2e4f71185b7107806ab918fd4b44fd69c1d9
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 15:39:27 2018 +0100
+
+    Added welcome page
+
+commit a245a0be2fbc4e090490b7eaf3429ee06d523729
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 15:38:55 2018 +0100
+
+    Fixed issue not rendering markdown when created
+
+commit 1f4c6817d6b808b6e7f9a2c1f5e5b1bad660f279
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 14:05:04 2018 +0100
+
+    Added pane controlls
+
+commit 1c411c03919ab16c2765feb6191301f8ff6431fd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 13:55:17 2018 +0100
+
+    Moved markdown preview to custom component
+
+commit 5856b66f3752037fffcc74f2505a7030e3e7d7ad
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 13:08:42 2018 +0100
+
+    Added markdown preview
+
+commit 80e04acb124de8dc4555511538e63dad0ad0c39e
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 13:08:04 2018 +0100
+
+    Created testing component
+
+commit a2cb1047042d1ac672c74c6f73772bd4ae27257a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sun Feb 11 13:07:09 2018 +0100
+
+    Added markdown-it
+
+commit 7d4319440ff556aa6a2697bb6b873917e00a0d1c
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 10 15:50:58 2018 +0100
+
+    Added About page, Tab controls and menu
+
+commit 9593ca748262f789e4ef935d1155fb8997070ffd
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 10 08:12:49 2018 +0100
+
+    Updated README.md
+
+commit b234d6ce738026385b671b6ca15a8d065084c8b1
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 10 08:08:29 2018 +0100
+
+    Added main page
+
+commit 7fa2befe42169c0433b2e462f8fe0e3e13cf956a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Sat Feb 10 08:08:15 2018 +0100
+
+    Deleted Hello.vue Page
+
+commit 5a226e4c876abe1c6cca64df3fa65951bdad7273
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 9 12:50:52 2018 +0100
+
+    Added photonkit
+
+commit a6ec690acf02b17ef0caca64083c0d3c0e01f3b6
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 9 12:38:49 2018 +0100
+
+    Disabled open browser
+
+commit 144f89f63e75ac447063fad8e169092584a95b9a
+Author: Johann Behr <johannbehr@exng.de>
+Date:   Fri Feb 9 12:37:45 2018 +0100
+
+    Created Quasar Electron App
